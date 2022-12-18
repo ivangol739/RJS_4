@@ -1,0 +1,125 @@
+.card-validator {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+
+.cards {
+    margin: 10px 0px;
+    height: 40px;
+}
+
+.list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.card {
+    float: left;
+    width: 63px;
+    height: 40px;
+    text-indent: -9999px;
+    margin-right: 4px;
+    background-size: 100% 100%;
+}
+
+.card.cdisabled {
+    opacity: 0.15;
+}
+
+.visa {
+    background-image: url(../img/visa.png);
+}
+
+.mastercard {
+    background-image: url(../img/mastercard.png);
+}
+
+.american {
+    background-image: url(../img/american.png);
+}
+
+.mir {
+    background-image: url(../img/mir.png);
+}
+
+.discover {
+    background-image: url(../img/discover.png);
+}
+
+form {
+    display: block;
+    margin-top: 0;
+}   
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.btn {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin-left: 8px;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.validation-result_container {
+    height: 50px;
+}
+
+.validation-result {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.validation-result.display-no {
+    display: none;
+}
+
+.validation-result.valid {
+    color: #4cae4c;
+}
+
+.validation-result.invalid {
+    color: crimson;
+}
